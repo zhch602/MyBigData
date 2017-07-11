@@ -2,9 +2,9 @@ package top.zhch602.spark.dao.impl;
 
 import java.sql.ResultSet;
 
-import tech.zhangchi.spark.dao.ITaskDAO;
-import tech.zhangchi.spark.domain.Task;
-import tech.zhangchi.spark.jdbc.JDBCHelper;
+import top.zhch602.spark.dao.ITaskDAO;
+import top.zhch602.spark.domain.Task;
+import top.zhch602.spark.jdbc.JDBCHelper;
 
 /**
  * 任务管理DAO实现类

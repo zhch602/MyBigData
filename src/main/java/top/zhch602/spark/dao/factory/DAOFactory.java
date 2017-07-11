@@ -1,31 +1,31 @@
 package top.zhch602.spark.dao.factory;
 
-//import tech.zhangchi.spark.dao.IAdBlacklistDAO;
-//import tech.zhangchi.spark.dao.IAdClickTrendDAO;
-//import tech.zhangchi.spark.dao.IAdProvinceTop3DAO;
-//import tech.zhangchi.spark.dao.IAdStatDAO;
-//import tech.zhangchi.spark.dao.IAdUserClickCountDAO;
-//import tech.zhangchi.spark.dao.IAreaTop3ProductDAO;
-//import tech.zhangchi.spark.dao.IPageSplitConvertRateDAO;
-//import tech.zhangchi.spark.dao.ISessionAggrStatDAO;
-//import tech.zhangchi.spark.dao.ISessionDetailDAO;
-//import tech.zhangchi.spark.dao.ISessionRandomExtractDAO;
-import tech.zhangchi.spark.dao.ITaskDAO;
-//import tech.zhangchi.spark.dao.ITop10CategoryDAO;
-//import tech.zhangchi.spark.dao.ITop10SessionDAO;
-//import tech.zhangchi.spark.dao.impl.AdBlacklistDAOImpl;
-//import tech.zhangchi.spark.dao.impl.AdClickTrendDAOImpl;
-//import tech.zhangchi.spark.dao.impl.AdProvinceTop3DAOImpl;
-//import tech.zhangchi.spark.dao.impl.AdStatDAOImpl;
-//import tech.zhangchi.spark.dao.impl.AdUserClickCountDAOImpl;
-//import tech.zhangchi.spark.dao.impl.AreaTop3ProductDAOImpl;
-//import tech.zhangchi.spark.dao.impl.PageSplitConvertRateDAOImpl;
-//import tech.zhangchi.spark.dao.impl.SessionAggrStatDAOImpl;
-//import tech.zhangchi.spark.dao.impl.SessionDetailDAOImpl;
-//import tech.zhangchi.spark.dao.impl.SessionRandomExtractDAOImpl;
+import top.zhch602.spark.dao.IAdBlacklistDAO;
+import top.zhch602.spark.dao.IAdClickTrendDAO;
+import top.zhch602.spark.dao.IAdProvinceTop3DAO;
+import top.zhch602.spark.dao.IAdStatDAO;
+import top.zhch602.spark.dao.IAdUserClickCountDAO;
+import top.zhch602.spark.dao.IAreaTop3ProductDAO;
+import top.zhch602.spark.dao.IPageSplitConvertRateDAO;
+import top.zhch602.spark.dao.ISessionAggrStatDAO;
+import top.zhch602.spark.dao.ISessionDetailDAO;
+import top.zhch602.spark.dao.ISessionRandomExtractDAO;
+import top.zhch602.spark.dao.ITaskDAO;
+import top.zhch602.spark.dao.ITop10CategoryDAO;
+import top.zhch602.spark.dao.ITop10SessionDAO;
+import top.zhch602.spark.dao.impl.AdBlacklistDAOImpl;
+import top.zhch602.spark.dao.impl.AdClickTrendDAOImpl;
+import top.zhch602.spark.dao.impl.AdProvinceTop3DAOImpl;
+import top.zhch602.spark.dao.impl.AdStatDAOImpl;
+import top.zhch602.spark.dao.impl.AdUserClickCountDAOImpl;
+import top.zhch602.spark.dao.impl.AreaTop3ProductDAOImpl;
+import top.zhch602.spark.dao.impl.PageSplitConvertRateDAOImpl;
+import top.zhch602.spark.dao.impl.SessionAggrStatDAOImpl;
+import top.zhch602.spark.dao.impl.SessionDetailDAOImpl;
+import top.zhch602.spark.dao.impl.SessionRandomExtractDAOImpl;
 import top.zhch602.spark.dao.impl.TaskDAOImpl;
-//import tech.zhangchi.spark.dao.impl.Top10CategoryDAOImpl;
-//import tech.zhangchi.spark.dao.impl.Top10SessionDAOImpl;
+import top.zhch602.spark.dao.impl.Top10CategoryDAOImpl;
+import top.zhch602.spark.dao.impl.Top10SessionDAOImpl;
 
 /**
  * DAO工厂类
@@ -39,52 +39,52 @@ public class DAOFactory {
 		return new TaskDAOImpl();
 	}
 
-//	public static ISessionAggrStatDAO getSessionAggrStatDAO() {
-//		return new SessionAggrStatDAOImpl();
-//	}
-//
-//	public static ISessionRandomExtractDAO getSessionRandomExtractDAO() {
-//		return new SessionRandomExtractDAOImpl();
-//	}
-//
-//	public static ISessionDetailDAO getSessionDetailDAO() {
-//		return new SessionDetailDAOImpl();
-//	}
-//
-//	public static ITop10CategoryDAO getTop10CategoryDAO() {
-//		return new Top10CategoryDAOImpl();
-//	}
-//
-//	public static ITop10SessionDAO getTop10SessionDAO() {
-//		return new Top10SessionDAOImpl();
-//	}
-//
-//	public static IPageSplitConvertRateDAO getPageSplitConvertRateDAO() {
-//		return new PageSplitConvertRateDAOImpl();
-//	}
-//
-//	public static IAreaTop3ProductDAO getAreaTop3ProductDAO() {
-//		return new AreaTop3ProductDAOImpl();
-//	}
-//
-//	public static IAdUserClickCountDAO getAdUserClickCountDAO() {
-//		return new AdUserClickCountDAOImpl();
-//	}
-//
-//	public static IAdBlacklistDAO getAdBlacklistDAO() {
-//		return new AdBlacklistDAOImpl();
-//	}
-//
-//	public static IAdStatDAO getAdStatDAO() {
-//		return new AdStatDAOImpl();
-//	}
-//
-//	public static IAdProvinceTop3DAO getAdProvinceTop3DAO() {
-//		return new AdProvinceTop3DAOImpl();
-//	}
-//
-//	public static IAdClickTrendDAO getAdClickTrendDAO() {
-//		return new AdClickTrendDAOImpl();
-//	}
+	public static ISessionAggrStatDAO getSessionAggrStatDAO() {
+		return new SessionAggrStatDAOImpl();
+	}
+	
+	public static ISessionRandomExtractDAO getSessionRandomExtractDAO() {
+		return new SessionRandomExtractDAOImpl();
+	}
+	
+	public static ISessionDetailDAO getSessionDetailDAO() {
+		return new SessionDetailDAOImpl();
+	}
+	
+	public static ITop10CategoryDAO getTop10CategoryDAO() {
+		return new Top10CategoryDAOImpl();
+	}
+	
+	public static ITop10SessionDAO getTop10SessionDAO() {
+		return new Top10SessionDAOImpl();
+	}
+	
+	public static IPageSplitConvertRateDAO getPageSplitConvertRateDAO() {
+		return new PageSplitConvertRateDAOImpl();
+	}
+	
+	public static IAreaTop3ProductDAO getAreaTop3ProductDAO() {
+		return new AreaTop3ProductDAOImpl();
+	}
+	
+	public static IAdUserClickCountDAO getAdUserClickCountDAO() {
+		return new AdUserClickCountDAOImpl();
+	}
+	
+	public static IAdBlacklistDAO getAdBlacklistDAO() {
+		return new AdBlacklistDAOImpl();
+	}
+	
+	public static IAdStatDAO getAdStatDAO() {
+		return new AdStatDAOImpl();
+	}
+	
+	public static IAdProvinceTop3DAO getAdProvinceTop3DAO() {
+		return new AdProvinceTop3DAOImpl();
+	}
+	
+	public static IAdClickTrendDAO getAdClickTrendDAO() {
+		return new AdClickTrendDAOImpl();
+	}
 	
 }

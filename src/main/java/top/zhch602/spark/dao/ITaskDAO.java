@@ -1,6 +1,6 @@
 package top.zhch602.spark.dao;
 
-import tech.zhangchi.spark.domain.Task;
+import top.zhch602.spark.domain.Task;
 
 /**
  * 任务管理DAO接口
