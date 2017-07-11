@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.util.LinkedList;
 import java.util.List;
 
-import tech.zhangchi.spark.conf.ConfigurationManager;
+import top.zhch602.spark.conf.ConfigurationManager;
 import top.zhch602.spark.constant.Constants;
 
 /**
