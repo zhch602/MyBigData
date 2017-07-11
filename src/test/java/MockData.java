@@ -1,5 +1,3 @@
-package top.zhch602.spark.test;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -15,8 +13,8 @@ import org.apache.spark.sql.SQLContext;
 import org.apache.spark.sql.types.DataTypes;
 import org.apache.spark.sql.types.StructType;
 
-import tech.zhangchi.spark.util.DateUtils;
-import tech.zhangchi.spark.util.StringUtils;
+import top.zhch602.spark.util.DateUtils;
+import top.zhch602.spark.util.StringUtils;
 
 /**
  * 模拟数据程序
