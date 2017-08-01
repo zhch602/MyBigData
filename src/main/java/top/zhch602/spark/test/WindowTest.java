@@ -1,3 +1,5 @@
+package top.zhch602.spark.test;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -21,7 +23,7 @@ public class WindowTest {
 	public static void main(String[] args) {
 		SparkConf conf = new SparkConf()
 				.setMaster("local") 
-				.setAppName("WindowTest");
+				.setAppName("top.zhch602.spark.test.WindowTest");
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		HiveContext sqlContext = new HiveContext(sc.sc());
 		

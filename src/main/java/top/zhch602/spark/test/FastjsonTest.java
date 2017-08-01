@@ -1,3 +1,5 @@
+package top.zhch602.spark.test;
+
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 

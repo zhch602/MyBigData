@@ -1,3 +1,5 @@
+package top.zhch602.spark.test;
+
 import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.HashMap;

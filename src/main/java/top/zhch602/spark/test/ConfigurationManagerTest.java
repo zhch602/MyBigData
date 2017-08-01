@@ -1,3 +1,5 @@
+package top.zhch602.spark.test;
+
 import top.zhch602.spark.conf.ConfigurationManager;
 
 /**

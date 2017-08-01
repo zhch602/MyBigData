@@ -1,3 +1,5 @@
+package top.zhch602.spark.test;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -12,12 +14,12 @@ import org.apache.spark.sql.SQLContext;
 import org.apache.spark.sql.types.DataTypes;
 import org.apache.spark.sql.types.StructType;
 
-public class IfTest {
+public class CaseWhenTest {
 	
 	public static void main(String[] args) {
 		SparkConf conf = new SparkConf()
 				.setMaster("local") 
-				.setAppName("IfTest");
+				.setAppName("top.zhch602.spark.test.CaseWhenTest");
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		SQLContext sqlContext = new SQLContext(sc.sc());
 		
@@ -40,7 +42,13 @@ public class IfTest {
 		gradesDF.registerTempTable("grades");   
 		
 		DataFrame gradeLevelDF = sqlContext.sql(
-				"SELECT IF(grade>=80,'GOOD','BAD') gradeLevel "  
+				"SELECT CASE "
+					+ "WHEN grade>=90 THEN 'A' "
+					+ "WHEN grade>=80 THEN 'B' "
+					+ "WHEN grade>=70 THEN 'C' "
+					+ "WHEN grade>=60 THEN 'D' "
+					+ "ELSE 'E' "
+					+ "END gradeLevel "
 				+ "FROM grades");
 		
 		gradeLevelDF.show();

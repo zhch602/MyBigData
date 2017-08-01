@@ -1,3 +1,5 @@
+package top.zhch602.spark.test;
+
 import java.io.BufferedWriter;
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,3 +1,5 @@
+package top.zhch602.spark.test;
+
 /**
  * 单例模式Demo
  * 
@@ -45,7 +47,7 @@ public class Singleton {
 	 * 所以，这个方法，通常需要进行多线程并发访问安全的控制
 	 * 
 	 * 首先，就是，说到多线程并发访问安全的控制，大家觉得最简单的就是在方法上加入synchronized关键词
-	 * public static synchronized Singleton getInstance()方法
+	 * public static synchronized top.zhch602.spark.test.Singleton getInstance()方法
 	 * 但是这样做有一个很大的问题
 	 * 在第一次调用的时候，的确是可以做到避免多个线程并发访问创建多个实例的问题
 	 * 但是在第一次创建完实例以后，就会出现以后的多个线程并发访问这个方法的时候，就会在方法级别进行同步

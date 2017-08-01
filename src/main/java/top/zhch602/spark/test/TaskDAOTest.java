@@ -1,3 +1,5 @@
+package top.zhch602.spark.test;
+
 import top.zhch602.spark.dao.ITaskDAO;
 import top.zhch602.spark.dao.factory.DAOFactory;
 import top.zhch602.spark.domain.Task;
